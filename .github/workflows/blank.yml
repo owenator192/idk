@@ -39,5 +39,5 @@ jobs:
     steps:
     - name: Do continuous delivery
       run: |
-        git remote add upstream https://github.com/idk
+        git remote add upstream https://github.com/owenator192/idk
         git push upstream main
